@@ -2,11 +2,14 @@
  
  > this is a simple book system registration with CPP
 
-## main menu
+> All data is stored in text file (.txt) in database.txt
+
+## Main menu
 
  > 1- Enter new book
 
  ```
+   > First, enter the stock
    > new book shouldnn't exist before in the database
    > new book details contains: (book title, author name, book price and book amount)
  ```
@@ -43,7 +46,7 @@
 
 > 6- Exit
 
-## screens from the book system
+## Screens for the book system
 
 ![image](https://user-images.githubusercontent.com/101745968/170874546-7c5bf02f-2412-4b83-8b02-efa633e9e617.png)
 
