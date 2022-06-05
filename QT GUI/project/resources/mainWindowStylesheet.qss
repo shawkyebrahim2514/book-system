@@ -1,0 +1,207 @@
+QMainWindow{
+	background-image:url(":/backgrounds/mainWindow.png"); 
+	background-position: center;
+}
+
+QDialog#newBookWindow{
+	background-image:url(":/backgrounds/mainWindow.png"); 
+}
+
+QDialog#editBookWindow{
+	background-image:url(":/backgrounds/mainWindow.png"); 
+}
+
+QDialog#searchStockWindow{
+	background-image:url(":/backgrounds/searchStockWindow.png"); 
+}
+
+QMainWindow QPushButton{
+	background:#0FA3B1;border:none;
+	border:none;
+	padding: 10px 100px;
+	font: 700 14pt "Segoe UI";
+	color:white;
+}
+
+QPushButton::hover{
+	background:#11B4BC;
+}
+
+QDialog#newBookWindow QLineEdit{
+background: #0FA3B1;
+padding: 10px;
+	font: 700 12pt "Segoe UI";
+border:none;
+color:white;
+}
+
+QDialog#newBookWindow QLabel{
+color:#343F3E;
+	font: 700 12pt "Segoe UI";
+}
+
+QDialog#newBookWindow QPushButton{
+background:#0FA3B1;
+border:none;
+padding: 10px 50px;
+	font: 700 14pt "Segoe UI";
+color:white;
+}
+
+
+QDialog#editBookWindow QLineEdit{
+background: #0FA3B1;
+padding: 10px;
+	font: 700 12pt "Segoe UI";
+border:none;
+color:white;
+}
+
+QDialog#editBookWindow QLabel{
+color:#343F3E;
+	font: 700 12pt "Segoe UI";
+}
+
+QDialog#editBookWindow QPushButton{
+background:#0FA3B1;
+border:none;
+padding: 10px 50px;
+	font: 700 14pt "Segoe UI";
+color:white;
+}
+
+
+
+
+
+QDialog#searchStockWindow QListWidget{
+background:white;
+	font: 700 12pt "Segoe UI";
+outline:0;
+border:2px solid #343F3E;
+}
+QDialog#searchStockWindow QListWidget::item{
+background:#0FA3B1;
+color:white;
+margin:10px;
+padding:20px;
+outline:0;
+}
+
+QDialog#searchStockWindow QListWidget::item::hover{
+background-color:#343F3E;
+color:white;
+}
+
+QDialog#searchStockWindow QLineEdit{
+background: #0FA3B1;
+padding: 10px;
+	font: 700 12pt "Segoe UI";
+border:none;
+color:white;
+border:none;
+}
+
+QDialog#searchStockWindow QLabel{
+color:#343F3E;
+	font: 700 12pt "Segoe UI";
+}
+
+QDialog#searchStockWindow QPushButton{
+background:#0FA3B1;
+border:none;
+padding: 10px 50px;
+	font: 700 14pt "Segoe UI";
+color:white;
+}
+
+QDialog#searchStockWindow QLabel#allBooksLabel{
+background:#0FA3B1;
+color:white;
+padding: 10px;
+font: 700 12pt "Segoe UI";
+}
+
+QDialog#searchStockWindow QMessageBox{
+	background:white;
+	color:red;
+}
+
+QMessageBox{
+	background:white;border:none;
+	font: 700 12pt "Segoe UI";
+}
+
+
+QMessageBox QLabel {
+	color: #343F3E;
+
+}
+
+
+QDialog#newBookWindow QMessageBox{
+	background:white;border:none;
+	font: 700 12pt "Segoe UI";
+}
+
+
+QDialog#newBookWindow QMessageBox QLabel {
+	color: #343F3E;
+}
+
+
+QInputDialog{
+	background:white;border:none;
+	color: #0FA3B1;
+}
+
+QInputDialog QLabel{
+	color: #0FA3B1;
+	font: 700 12pt "Segoe UI";
+}
+
+QInputDialog QLineEdit{
+	background:#0FA3B1;border:none;
+	margin-bottom:10px;
+	padding:10px;
+	color:#fff;
+	font: 700 10pt "Segoe UI";
+}
+
+
+
+QScrollBar:vertical {
+     border: 2px solid #343F3E;
+     background: #0FA3B1;
+     width: 15px;
+     margin: 22px 0px 22px 0px;
+ }
+ QScrollBar::handle:vertical {
+     background: white;
+     min-height: 20px;
+ }
+ QScrollBar::add-line:vertical {
+     border: 2px solid #343F3E;
+     background: white;
+     height: 20px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:vertical {
+     border: 2px solid #343F3E;
+     background: white;
+     height: 20px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+     border: 2px solid #343F3E;
+     width: 3px;
+     height: 3px;
+     background: white;
+ }
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: none;
+ }

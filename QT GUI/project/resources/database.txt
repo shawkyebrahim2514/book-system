@@ -1,0 +1,4 @@
+1,CPP for begginers,shawky ebrahim,1500,50
+1,Python for begginers,ebrahim ahmed,1500,50
+1,JAVASCRIPT for begginers,ahmed mohameed,1500,50
+1,PHP for begginers,ahmed fahem,1500,50
